@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="startQuiz();">
+<div id="topContainer">
+<button class="button" id="newQuizButton">Generate New Quiz</button>
+<div style="float:right;padding-right:1%">Time: <span id="timerDisplayText"></span></div>
+</div>
+<div>
+<div id="quizContainer" >
+Quickly click smallest numbers.   
+<div id="randomValuesContainer"></div>
+</div>
+</div>
+<div id="bottomContainer">
+<div style="float:left">Score = <span id="scoreContainer">0</span></div>
+<div style="float:right;padding-right:1%">Highest Score = <span id="highestScoreContainer"></span></div>
+</div>
+</body>
+<script src="js/util.js"></script>
+<script src="js/randomArrayFactory.js"></script> 
+<script src="js/timer.js"></script> 
+<script src="js/POPQuiz.js"></script> 
+
+</html>

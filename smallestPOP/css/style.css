@@ -1,0 +1,57 @@
+/*New Quiz Button Style*/
+.button{ 
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border:1px solid #25729a; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px 5px 5px 5px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    background-color: #3093c7;
+	float: inherit;
+}
+/*Quiz choice button style*/
+.quizOptions{ 
+    cursor: pointer;
+    text-align: center; 
+    color: #FFFFFF; 
+    background-color: #680000;
+	min-width: 45px;
+	min-height: 35px;
+}
+/*Disable style for both type of  buttons*/
+.button:disabled ,.quizOptions:disabled{
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+
+
+#topContainer{
+height:30px;
+background-color:pink;
+}
+
+#quizContainer{
+height:80px;
+background-color:yellow;
+}
+
+#bottomContainer{
+height:30px;
+background-color:red;
+}
+
+#topContainer, #quizContainer, #bottomContainer{
+min-width: 350px;
+width: device-width;
+display:inline-block;
+clear: both;
+float: left;
+}
+
+@viewport{
+    
+}
